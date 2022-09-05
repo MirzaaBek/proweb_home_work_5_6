@@ -1,0 +1,133 @@
+@import url('fonts.css');
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: RR;
+}
+*,*:before,:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active {
+    outline: none;
+}
+a:focus,a:active {
+    outline: none;
+}
+nav,footer,header,aside {
+    display: block;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea {
+    font-family: inherit;
+}
+input::-ms-clear {
+    display: none;
+}
+button {
+    cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    bottom: 0;
+}
+a,a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+nav, .content, main, footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    border-left: 1px solid orangered;
+    border-right: 1px solid orangered;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    max-width: 1410px;
+    margin: 0 auto;
+    padding: 50px 0 0px;
+    background: #e5e5e5;
+    border-left: 1px solid orangered;
+    border-right: 1px solid orangered;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #8C8A8A;
+    margin: 80px 0 0 0;
+}
+.navbar a{
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #8C8A8A;
+}
+.content__image{
+ width: 100%;
+}
+.main{
+    display: flex;
+}
+.about{
+    max-width: 730px;
+}
+.about__text{
+    padding: 25px 95px 30px 40px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;  
+}
+.main__title{
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    font-family: RB;
+    color: #4581B7;
+    margin-top: 25px;
+}
+.contact{
+ min-width: 350px;
+}
+.contact__text{
+    padding: 25px 24px 138px 40px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080; 
+    color: #808080;
+}
+.footer__logo a img{
+    width: 100%;
+    margin-top: 30px;
+    background-color: #F0F0F0;
+}
